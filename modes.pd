@@ -1,0 +1,8 @@
+#N canvas 0 22 1241 305 10;
+#X obj 24 227 noteout;
+#X obj 10 -19 chords;
+#X obj 15 183 makenote 100 4000;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
+#X connect 2 1 0 1;
+#X coords 0 0 1 1 85 60 0;

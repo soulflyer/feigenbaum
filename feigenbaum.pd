@@ -1,0 +1,40 @@
+#N canvas 759 380 450 300 10;
+#X obj 201 101 cnv 15 175 55 empty empty empty 20 12 0 14 -261682 -258113
+0;
+#X floatatom 127 108 5 0 1 0 - - -;
+#X msg 85 98 1;
+#X obj 92 140 -;
+#X obj 110 177 *;
+#X obj 191 216 *;
+#X obj 207 107 hsl 128 15 3 4 0 0 empty empty empty -2 -8 0 10 -260097
+-1 -1 8300 1;
+#X obj 42 63 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom 339 106 5 3 4 0 - - -;
+#X msg 127 60 0.5;
+#X obj 80 23 inlet;
+#X obj 128 24 inlet;
+#X obj 177 25 inlet;
+#X text 244 137 x(n+1)=G*x(n)(1-x(n));
+#X text 272 124 G (3.53<chaos<4);
+#X obj 122 257 outlet;
+#X text 80 39 clock;
+#X text 130 40 reset;
+#X text 190 40 G;
+#X floatatom 198 247 5 0 0 0 - - -;
+#X connect 1 0 3 1;
+#X connect 1 0 4 1;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 1 0;
+#X connect 5 0 15 0;
+#X connect 5 0 19 0;
+#X connect 6 0 5 1;
+#X connect 6 0 8 0;
+#X connect 7 0 2 0;
+#X connect 9 0 1 0;
+#X connect 10 0 2 0;
+#X connect 11 0 9 0;
+#X connect 12 0 6 0;
+#X coords 0 -1 1 1 175 55 2 200 100;

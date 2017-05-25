@@ -1,0 +1,48 @@
+#N canvas 0 22 654 395 10;
+#X obj 12 10 cnv 15 110 145 empty empty empty 20 12 0 14 -204786 -66577
+0;
+#X obj 139 284 comment 125 9 helvetica ? 35584 0 0 0 Mode 7;
+#X obj 139 246 comment 125 9 helvetica ? 35584 0 0 0 Mode 6;
+#X obj 139 210 comment 125 9 helvetica ? 35584 0 0 0 Mode 5;
+#X obj 139 174 comment 125 9 helvetica ? 35584 0 0 0 Mode 4;
+#X obj 139 138 comment 125 9 helvetica ? 35584 0 0 0 Mode 3;
+#X obj 139 94 comment 125 9 helvetica ? 35584 0 0 0 Mode 2;
+#X obj 139 56 comment 125 9 helvetica ? 35584 0 0 0 Mode 1;
+#X obj 134 14 comment 168 12 helvetica ? 35584 0 0 0 Major Modes;
+#X msg 139 74 dorian;
+#X msg 139 117 phrygian;
+#X msg 139 154 lydian;
+#X msg 139 189 mixolydian;
+#X msg 139 227 aeolian;
+#X msg 139 264 locrian;
+#X obj 426 253 outlet;
+#X obj 18 17 bng 15 250 50 0 mixolydian empty Ionian 17 7 0 14 -4032
+-1 -1;
+#X obj 18 37 bng 15 250 50 0 empty empty Dorian 17 7 0 14 -258113 -1
+-1;
+#X obj 18 57 bng 15 250 50 0 empty empty Phrygian 17 7 0 14 -258113
+-1 -1;
+#X obj 18 76 bng 15 250 50 0 empty empty Lydian 17 7 0 14 -4032 -1
+-1;
+#X obj 18 95 bng 15 250 50 0 empty empty Mixolydian 17 7 0 14 -4032
+-1 -1;
+#X obj 18 114 bng 15 250 50 0 empty empty Aeolian 17 7 0 14 -258113
+-1 -1;
+#X obj 18 133 bng 15 250 50 0 empty empty Locrian 17 7 0 14 -159808
+-1 -1;
+#X msg 142 41 ionian;
+#X connect 9 0 15 0;
+#X connect 10 0 15 0;
+#X connect 11 0 15 0;
+#X connect 12 0 15 0;
+#X connect 13 0 15 0;
+#X connect 14 0 15 0;
+#X connect 16 0 23 0;
+#X connect 17 0 9 0;
+#X connect 18 0 10 0;
+#X connect 19 0 11 0;
+#X connect 20 0 12 0;
+#X connect 21 0 13 0;
+#X connect 22 0 14 0;
+#X connect 23 0 15 0;
+#X coords 0 -1 1 1 112 145 1 10 10;
