@@ -16,3 +16,5 @@ Just below the keyboard is a number entry box that takes a value to set the note
 Select a mode. (Should see the numbers below the modal-change box change from 0) You may need to click on reset too, and the green button to start it. Drag the slider across to the right to introduce some chaos. 
 
 Note that this generates midi notes, not sounds, so you will also need to connect it up to a midiplayer of some kind. That's a whole can of worms. Once you have something running that will take midi input, select it in `Pd:Preferences:Midi`
+
+There is a vcv patch included that will play the feigenbaum sequence and a root note drone.
